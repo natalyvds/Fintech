@@ -1,0 +1,55 @@
+body {
+    position: relative;
+    height: 100vh;
+    min-height: 100%;
+}
+
+header { 
+    margin-top: 100px;
+    font-family: 'Bevan', cursive;
+    align-items: center;
+}
+
+header h3{
+    font-size: 26px;
+
+}
+
+header h4{
+    font-size: 26px;
+    margin-left: -65px;
+}
+
+header h2{
+    font-size: 29px;
+}
+
+input {
+    max-width:500px ;
+    background-color: rgb(62, 62, 62);
+    padding-bottom: 5px;
+    border: none;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+
+a, label {
+    color: grey;
+}
+
+button {
+    width: 242px;
+    height: 31px;
+    background-color: rgb(62, 62, 62);
+    color: white;
+    font-size: 13px;
+    border: none;  
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+}
